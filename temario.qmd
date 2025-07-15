@@ -1,0 +1,138 @@
+---
+title: ""
+---
+
+## Temario
+
+### Módulo I. Requisitos Básicos
+
+```{r temario_modulo_I, echo=FALSE}
+tibble::tibble(Tema = c("Instalar R",
+                         "Instalar RStudio",
+                         "Introducción a RStudio",
+                         "Instalación de Paquetes desde CRAN",
+                         "Instalación de Paquetes desde github",
+                         "Instalación de Paquetes desde un archivo",
+                         "Instalación de Paquetes para el análisis espacial",
+                         "Instalación de Paquetes desarrollados por CENAPRECE-InDRE",
+                        "Datos Espaciales"),
+               Instructor = c(rep("Felipe A. Dzul Manzanilla & Jonathan S. Mendoza Cruz", times = 9))) |>
+    reactable::reactable(defaultPageSize = 10,
+                         theme = reactablefmtr::flatly(),
+                         filterable = FALSE,
+                         striped = TRUE,
+                         minRows = 10,
+                         resizable = TRUE, 
+                         wrap = FALSE, 
+                         bordered = TRUE)
+
+```
+
+-   [Instalación de Paquetes](https://calm-hummingbird-41cb33.netlify.app/talks/pkg_installation/#/), [dengueverse](https://calm-hummingbird-41cb33.netlify.app/talks/dengueverse/#/dengueverse), [Datos Espaciales](https://calm-hummingbird-41cb33.netlify.app/talks/spatial_data/#/)
+
+
+### Módulo II. Focos de Transmisión Activa de las Arbovirosis.
+
+```{r temario_modulo_II, echo=FALSE}
+tibble::tibble(Temas = c("Geocoding API Key",
+                         "Geocodificación en R",
+                         "Cadenas de Transmisión",
+                         "Mapas de Calor",
+                         "Modelo Log-Gaussian Cox Processed"),
+               Instructor = c("Jonathan S. Mendoza Cruz",
+                              "Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla")) |>
+    reactable::reactable(defaultPageSize = 5,
+                         theme = reactablefmtr::flatly(),
+                         filterable = FALSE,
+                         striped = TRUE,
+                         minRows = 5,
+                         resizable = TRUE, 
+                         wrap = FALSE, 
+                         bordered = TRUE)
+```
+
+[Geocoding API Key](https://fancy-arithmetic-194be1.netlify.app/talks/api_key_google/#/title-slide)
+
+### Modulo III. Hotspots de la Transmisión Persistente de las Arbovirosis
+
+```{r temario_modulo_III, echo=FALSE}
+tibble::tibble(Temas = c("Bases del SINAVE",
+                         "Geocodificación en R",
+                         "Extraer la localidad",
+                         "Contar los casos por polygono",
+                         "Calcular los Hotspots",
+                         "Visualizar los Hotspots"),
+               Instructor = c("Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla",
+                              "Felipe Antonio Dzul Manzanilla")) |>
+    reactable::reactable(defaultPageSize = 7,
+                         theme = reactablefmtr::flatly(),
+                         filterable = FALSE,
+                         striped = TRUE,
+                         minRows = 7,
+                         resizable = TRUE, 
+                         wrap = FALSE, 
+                         bordered = TRUE)
+
+```
+
+-   [Análisis Espacial del Dengue en R](https://animated-longma-729cee.netlify.app/talks/spatial_analysis_dengue/#1), [Hotspots de Transmisión del Dengue](https://animated-longma-729cee.netlify.app/talks/hotspots_cases/#1), [Hotspots de Transmisión del Dengue en R](https://animated-longma-729cee.netlify.app/talks/hotspots_cases_r/#1)
+
+
+### Módulo IV. Hotspots de la abundancia  de huevos del vector del dengue
+
+```{r temario_modulo_IV, echo=FALSE}
+tibble::tibble(Tema = c("Bajar las bases de Ovitrampas",
+                        "Analisis Exploratorio de Ovitrampas",
+                        "Análisis Geoestadístico con INLA",
+                        "Algoritmo para el Análisis Geoestadístico",
+                        "Visualización de la predicion de huevos",
+                        "Hotspots de huevos e Intensidad",
+                        "Visualizacion de los hotspots de huevos"),
+               Instructor = c("Luis Hernández-Herrera",
+                              rep("Felipe Antonio Dzul Manzanilla", 
+                                  times = 6))) |>
+    reactable::reactable(defaultPageSize = 7,
+                         theme = reactablefmtr::flatly(),
+                         filterable = FALSE,
+                         striped = TRUE,
+                         minRows = 7,
+                         resizable = TRUE, 
+                         wrap = FALSE, 
+                         bordered = TRUE)
+
+```
+
+-   [Hotspots de Vector del Dengue](https://animated-longma-729cee.netlify.app/talks/hotspots_eggs/#1)
+
+-   [Hotspots de Vector del Dengue en R](https://animated-longma-729cee.netlify.app/talks/hotspots_eggs_r/#1)
+
+
+### Módulo V. Modelo estratégico de focalización del dengue en México
+
+```{r temario_modulo_V, echo=FALSE}
+tibble::tibble(Tema = c("Hotspots de casos",
+                        "Hotspots del vector",
+                        "Definición del riesgo de transmisión",
+                        "Visualización del riesgo de transmisión",
+                        "Modelo stratégico de focalización"),
+               Instructor = c(rep("Felipe Antonio Dzul Manzanilla", 
+                                  times = 5))) |>
+    reactable::reactable(defaultPageSize = 5,
+                         theme = reactablefmtr::flatly(),
+                         filterable = FALSE,
+                         striped = TRUE,
+                         minRows = 5,
+                         resizable = TRUE, 
+                         wrap = FALSE, 
+                         bordered = TRUE)
+
+```
+
+
