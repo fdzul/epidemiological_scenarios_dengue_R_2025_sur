@@ -12,9 +12,10 @@ Curso presencial de Lunes a Viernes.
 
 ## Sede
 
-•⁠  ⁠Sede:**  Salón Nonna M **ia, Av. Miguel Alemán, Área Ah, 24010 San Francisco de Campeche. Camp.
+   - Salon **Nona Mia**, Avenida Miguel Alemán, Área Ah, CP 24010 San Francisco de Campeche, Campeche.
 
-•⁠  ⁠Hotel recomendado: City Express,  Av. Adolfo Ruiz Cortinez. 12, Fracc. Sector Fundadores, Lote Área, Área Ah, 24028 San Francisco de Campeche, Camp., ya incluye desayuno
+
+- ⁠Hotel recomendado: City Express, Av. Adolfo Ruiz Cortinez. 12, Fracc. Sector Fundadores, Lote Área, Área Ah, 24028 San Francisco de Campeche, Campeche.
 
 
 ```{r, echo=FALSE}

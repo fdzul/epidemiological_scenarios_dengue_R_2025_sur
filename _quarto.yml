@@ -5,9 +5,9 @@ project:
 website:
   page-footer: "Copyright 2025, Felipe Antonio Dzul Manzanilla | Fabián Correa-Morales"
   title: "Focos de Transmisión del Dengue"
-  repo-url: https://github.com/fdzul/active_transmission_dengue_2025_morelos-dev
+  repo-url: https://github.com/fdzul/-dev
   repo-actions: [edit, issue]
-  favicon: imagenes/logo_course.jpeg
+  favicon: imagenes/logo.jpeg
   twitter-card: true
   navbar:
     logo: imagenes/logo_course.jpeg
@@ -42,5 +42,5 @@ format:
 
 editor: visual
 margin-header: |
- ![](imagenes/logo_course2.png)
+ ![](imagenes/logo.jpeg)
 
