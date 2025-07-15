@@ -52,10 +52,10 @@ insp: <https://insp.mx/centros/sistemas-de-salud/investigador/gomez-dantes-hecto
 
 # Dr. Juan Octavio Ávila López
 
-![]()
+![](imagenes/octavio.jpeg)
 
 Telefono personal: 9811602535
 
 Telefono oficina:
 
-Correo:
+Correo: octavio.avila.al@gmail.com
