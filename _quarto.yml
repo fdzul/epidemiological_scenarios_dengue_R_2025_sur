@@ -7,7 +7,7 @@ website:
   title: "Focos de Transmisión del Dengue"
   repo-url: https://github.com/fdzul/-dev
   repo-actions: [edit, issue]
-  favicon: imagenes/logo.jpeg
+  favicon: imagenes/logo.jpg
   twitter-card: true
   navbar:
     logo: imagenes/logo_course.jpeg
@@ -42,5 +42,5 @@ format:
 
 editor: visual
 margin-header: |
- ![](imagenes/logo.jpeg)
+ ![](imagenes/logo.jpg)
 
